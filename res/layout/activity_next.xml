@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    > 
+    <ImageView 
+        android:id="@+id/main_image"
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"       
+        android:layout_gravity="center" 
+        android:src="@drawable/ic_launcher" />
+
+    <TableRow 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_margin="0dp"
+        android:padding="10dip"> 
+        
+        <CheckBox android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/CustomCheckboxTheme"
+            android:id="@+id/character_01"/> 
+        <CheckBox android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/CustomCheckboxTheme"
+            android:id="@+id/character_02"/>
+        <CheckBox android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/CustomCheckboxTheme"
+            android:id="@+id/character_03"/> 
+    </TableRow> 
+     
+    <View 
+        android:layout_height="2dip" 
+        android:background="#FFFFFF" /> 
+     
+    <TableRow 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:padding="10dip"> 
+        
+        <CheckBox android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/CustomCheckboxTheme"
+            android:id="@+id/character_04"/> 
+        <CheckBox android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/CustomCheckboxTheme"
+            android:id="@+id/character_05"/>
+        <CheckBox android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/CustomCheckboxTheme"
+            android:id="@+id/character_06"/> 
+    </TableRow> 
+      
+
+ 
+    <TableRow 
+        android:layout_width="wrap_content" 
+        android:layout_height="fill_parent"
+        android:layout_margin="50dp" 
+        android:padding="10dip"> 
+        
+         <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/submit"
+            android:onClick="getValues"
+            android:text="@string/submitbtn"/>
+    </TableRow> 
+ 
+</TableLayout> 

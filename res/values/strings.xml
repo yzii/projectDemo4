@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">projectDemo4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="character01">温柔</string>
+    <string name="character02">撒娇</string>
+    <string name="character03">任性</string>
+    <string name="character04">独立</string>
+    <string name="character05">单纯</string>
+    <string name="character06">知性</string>
+    <string name="character07">泼辣</string>
+    <string name="character08">热情奔放</string>
+    <string name="character09">另类</string>
+    <string name="character10">男人</string>
+    <string name="submitbtn">提交</string>
+    <string name="text_back">后退</string>
+    <string name="text_forward">分享</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="title_activity_title">TitleActivity</string>
+    <string name="title_activity_your_portrait">YourPortraitActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_show_setting_face">ShowSettingFaceActivity</string>
+
+</resources>

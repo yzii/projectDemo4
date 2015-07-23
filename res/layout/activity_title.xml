@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="#ed4255"    >
+    <!-- tools:context="${relativePackage}.${activityClass}" -->
+
+	<TextView android:id="@+id/text_title"
+	    android:layout_height="match_parent" 
+        android:layout_width="match_parent" />
+	
+	<Button 
+        android:id="@+id/button_backward"        
+        android:ellipsize="end" 
+        android:gravity="center"          
+        android:layout_height="match_parent" 
+        android:layout_width="60dp"
+        android:text="@string/text_back" 
+        android:visibility="invisible"/>
+
+    <Button 
+        android:id="@+id/button_forward"
+
+        android:ellipsize="end" 
+        android:gravity="center"          
+ 
+        android:layout_height="match_parent" 
+        android:layout_width="60dp" 
+		android:text="@string/text_forward" 
+        android:visibility="invisible"/>
+ </RelativeLayout>

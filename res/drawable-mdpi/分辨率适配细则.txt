@@ -1,0 +1,8 @@
+1.2 分辨率对应DPI
+"HVGA    mdpi"          480*320 (Half-size VGA)
+
+"WVGA   hdpi "         800*480 (Wide VGA)          
+"FWVGA hdpi "        854*480 (Full Wide VGA)
+"QHD      hdpi "         960*540
+"720P     xhdpi"         1280*720  标清
+"1080P   xxhdpi "       1920*1080 高清
